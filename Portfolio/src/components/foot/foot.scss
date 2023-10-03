@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+
+
+    &__bottom{
+        display: flex;
+        flex-direction: row;
+
+        &-left{
+            width: 50%;
+            background-color: rgb(134, 91, 33);
+        }
+        &-right{
+            width: 50%;
+            background-color: rgb(76, 6, 141);
+        }
+    }
+}

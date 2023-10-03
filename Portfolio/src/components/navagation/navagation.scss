@@ -1,0 +1,30 @@
+.navagation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-size: .7rem;
+    color: white;
+
+    &__name{
+    }
+
+    &__middle{
+        display: flex;
+        flex-direction: row;
+
+        &-item{
+            padding-right:.8rem ;
+            padding-left: .8rem;
+        }
+    }
+    &__social{
+        display: flex;
+        flex-direction: row;
+
+        &-item{
+            padding-right:.8rem ;
+            padding-left: .8rem;
+        }
+    }
+}

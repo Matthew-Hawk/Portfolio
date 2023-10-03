@@ -1,0 +1,9 @@
+.Projects{
+    width: 100vw;
+    background-color: rgb(252, 249, 246);
+    color: black;
+    &__top{}
+    &__bottom{
+        text-align: center;
+    }
+}

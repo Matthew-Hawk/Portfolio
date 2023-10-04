@@ -1,0 +1,24 @@
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top{
+
+}
+.middle{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+    &__left{}
+    &__right{}
+}
+.blerb{
+    &__comp{}
+    &__title{}
+    &__date{}
+    &__disc{
+        width: 70%;
+    }
+}

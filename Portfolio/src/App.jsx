@@ -11,11 +11,13 @@ function App() {
   return (
     <>
       <Navagation></Navagation>
-      <Head></Head>
-      <About></About>
-      <Resume></Resume>
-      <Projects></Projects>
-      <Foot></Foot>
+      <div className='wrapper'>
+        <Head></Head>
+        <About></About>
+        <Resume></Resume>
+        <Projects></Projects>
+        <Foot></Foot>
+      </div>
     </>
   )
 }

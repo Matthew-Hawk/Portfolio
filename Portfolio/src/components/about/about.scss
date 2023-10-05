@@ -1,9 +1,10 @@
 .About{
-
-    &__title{
-
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 13rem 2rem 13rem;
+    &__title{}
     &__disc{
-        
+        width: 90%;
     }
 }

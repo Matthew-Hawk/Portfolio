@@ -6,8 +6,8 @@ function resume() {
     <>
     <div className='resume'>
         <section className='top'>
-            <h2>Resume</h2>
-            <h3>Here is my education, work experience, & some skills I've got.</h3>
+            <h2 className='top__title'>Resume</h2>
+            <h3 className='top__tag'>Here is my education, work experience, & some skills I've got.</h3>
         </section>
         <section className='middle'>
             <div className='middle__left'>

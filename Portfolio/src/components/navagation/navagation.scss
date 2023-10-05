@@ -1,31 +1,51 @@
 .navagation {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 
     font-size: .7rem;
     color: white;
     background-color: #5C8783;
+    margin: 1rem 13rem;
+
 
     &__name{
+        width: 33%;
+        //margin-right: 25rem;
     }
-
+    
     &__middle{
+        width: 33%;
+        //margin-right: 20rem;
         display: flex;
         flex-direction: row;
 
         &-item{
             padding-right:.8rem ;
             padding-left: .8rem;
+
+            &:hover{
+                color: rgb(0, 0, 0);
+                text-shadow: 2px 2px 8px #FFFFFF;
+                cursor: pointer;
+            }
         }
     }
     &__social{
+        width: 30%;
+
         display: flex;
         flex-direction: row;
 
         &-item{
             padding-right:.8rem ;
             padding-left: .8rem;
+
+            &:hover{
+                color: rgb(0, 0, 0);
+                text-shadow: 2px 2px 8px #FFFFFF;
+                cursor: pointer;
+            }
         }
     }
 }

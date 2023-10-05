@@ -1,24 +1,46 @@
 .resume{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 8rem 13rem;
+
 }
 .top{
-
+    &__title{
+        font-size: 2rem;
+        margin: 0;
+    }
+    &__tag{
+        font-size: 3.625rem;
+        margin: 0 0 3rem 0 ;
+    }
 }
 .middle{
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
 
-    &__left{}
-    &__right{}
+    &__title{
+        margin: 4rem 0;
+    }
+    &__left{
+        padding: 0 1rem 0 0;
+    }
+    &__right{
+        padding: 0 0 0 1rem;
+    }
 }
 .blerb{
-    &__comp{}
-    &__title{}
-    &__date{}
+    margin-bottom: 2rem;
+    &__comp{
+        font-size: 2rem;
+        margin: 0;
+    }
+    &__title{
+        margin: 0;
+    }
+    &__date{
+        margin: 0;
+    }
     &__disc{
-        width: 70%;
+        width: 90%;
     }
 }

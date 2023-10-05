@@ -5,7 +5,6 @@ function foot() {
   return (
     <footer className='footer'>
         <section className='footer__top'>
-            <h2 className='footer__top-title'>Selected Projects</h2>
             <h3 className='footer__top-cph'>Feel free to reach out if you want to collaborate with me,or simply have a chat.</h3>
         </section>
 
@@ -22,9 +21,10 @@ function foot() {
             <div className='bottom__right'>
                 <div>
                     <h3 className='bottom__right__title'>START A PROJECT</h3>
-                    <h3 className='bottom__right__text'>matthawkins44#gmail.com</h3>
+                    <h3 className='bottom__right__text'>matthawkins44@gmail.com</h3>
                     <h3 className='bottom__right__text'>979-703-9438</h3>
                 </div>
+                <br />
                 <div>
                     <h3 className='bottom__right__title'>CONNECT</h3>
                     <h3 className='bottom__right__text'>X</h3>
